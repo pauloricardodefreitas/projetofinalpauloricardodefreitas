@@ -1,0 +1,199 @@
+html,
+body {
+    margin: 0;
+}
+
+img:hover {
+    background-color: #4CC7E6;
+}
+
+a:hover {
+    background-color: #024252;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo {
+    width: 140px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+
+li {
+    float: left;
+    padding: 20px 10px 20px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li:hover {
+    background-color: #024252;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#fundo {
+    background: url("fundo6.jpg");
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+}
+
+#subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 2px solid white;
+    text-shadow: 2px 2px black;
+}
+
+#projeto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-shadow: 2px darkorange;
+    text-shadow: 1px black;
+}
+
+#ideias {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#acao {
+    text-shadow: 1px 1px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 10 20 10 20;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#polos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#sobre {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icone {
+    width: 56px;
+}
+
+section {
+    padding: 20px;
+    float: left;
+}
+
+.destaque {
+    background-color: whitesmoke;
+}
+
+.polos {
+    width: 390px;
+    height: 300px;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+
+.sobre {
+    width: 350px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.dois {
+    width: 40%;
+}
+
+.tres {
+    width: 30%;
+    padding: 0 1%;
+}
+
+.quatro {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+}
+
+.imgeco {
+    width: 90%;
+    height: 60%;
+}
+
+footer {
+    background-color: #058CAD;
+    float: left;
+    color: white;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna,
+    dois,
+    tres,
+    .quatro {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin-left: 0px;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+}
